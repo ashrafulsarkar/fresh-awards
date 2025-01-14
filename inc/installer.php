@@ -10,7 +10,7 @@
  *
  * @package    TGM-Plugin-Activation
  * @subpackage Example
- * @version    2.6.1 for parent theme VüCH
+ * @version    2.6.1 for parent theme Fresh Awards
  * @author     Thomas Griffin, Gary Jones, Juliette Reinders Folmer
  * @copyright  Copyright (c) 2011, Thomas Griffin
  * @license    http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
@@ -66,9 +66,9 @@ function fawards_register_required_plugins() {
 			'required'           => true,
 		),
 		array(
-			'name'               => 'Vuch Elementor',
-			'slug'               => 'vuch-elementor',
-			'source'             => get_template_directory() . '/plugins/vuch-elementor.zip', 
+			'name'               => 'Fresh Awards Elementor',
+			'slug'               => 'fawards-elementor',
+			'source'             => get_template_directory() . '/plugins/fawards-elementor.zip', 
 			'required'           => true,
 		),
 

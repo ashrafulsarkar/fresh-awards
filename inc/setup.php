@@ -1,6 +1,6 @@
 <?php
 /**
- * VüCH Theme Setup
+ * Fresh Awards Theme Setup
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
@@ -19,7 +19,7 @@ if ( !function_exists( 'fawards_setup' ) ) {
         /*
          * Make theme available for translation.
          * Translations can be filed in the /languages/ directory.
-         * If you're building a theme based on VüCH, use a find and replace
+         * If you're building a theme based on Fresh Awards, use a find and replace
          * to change 'fawards' to the name of your theme in all the template files.
          */
         load_theme_textdomain( 'fawards', fawards_ROOT . '/languages' );

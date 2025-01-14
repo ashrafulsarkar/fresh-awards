@@ -1,6 +1,6 @@
 <?php
 /**
- * VüCH Theme Theme Custom function
+ * Fresh Awards Theme Theme Custom function
  *
  * @package Fresh Awards
  */
@@ -17,12 +17,12 @@ if ( class_exists( 'CSF' ) ) {
     CSF::createOptions( $prefix, array(
 
         // framework title
-        'framework_title'         => 'VüCH Option <small>by <a href="mailto:ashrafulsarkar47@gmail.com">Ashraful Sarkar Naiem</a></small>',
+        'framework_title'         => 'Fresh Awards Option <small>by <a href="mailto:ashrafulsarkar47@gmail.com">Ashraful Sarkar Naiem</a></small>',
         'framework_class'         => '',
 
         // menu settings
-        'menu_title'              => 'VüCH',
-        'menu_slug'               => 'vuch-option',
+        'menu_title'              => 'Fresh Awards',
+        'menu_slug'               => 'fawards-option',
         'menu_type'               => 'menu',
         'menu_capability'         => 'manage_options',
         'menu_icon'               => null,

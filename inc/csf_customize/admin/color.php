@@ -1,6 +1,6 @@
 <?php
 /**
- * VüCH Theme page option
+ * Fresh Awards Theme page option
  *
  * @package Fresh Awards
  */
@@ -10,19 +10,19 @@ CSF::createSection( $prefix, array(
     'icon'   => 'fas fa-eye-dropper',
     'fields' => array(
         array(
-            'id'          => 'vuch-primary-color',
+            'id'          => 'fawards-primary-color',
             'type'        => 'color',
             'title'       => 'Primary Color',
             'default'     => '#003C97',
         ),
         array(
-            'id'          => 'vuch-secondary-color',
+            'id'          => 'fawards-secondary-color',
             'type'        => 'color',
             'title'       => 'Secondary Color',
             'default'     => '#1570EF',
         ),
         array(
-            'id'          => 'vuch-text-color',
+            'id'          => 'fawards-text-color',
             'type'        => 'color',
             'title'       => 'Text Color',
             'default'     => '#1A1927',

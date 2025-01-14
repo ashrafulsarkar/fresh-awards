@@ -32,7 +32,7 @@ if ( ! class_exists( 'CSF_Nav_Menu_Options' ) ) {
       add_action( 'wp_nav_menu_item_custom_fields', array( $this, 'wp_nav_menu_item_custom_fields' ), 10, 4 );
       add_action( 'wp_update_nav_menu_item', array( $this, 'wp_update_nav_menu_item' ), 10, 3 );
 
-      add_filter( 'wp_edit_nav_menu_vuchag', array( $this, 'wp_edit_nav_menu_vuchag' ), 10, 2 );
+      add_filter( 'wp_edit_nav_menu_fawards', array( $this, 'wp_edit_nav_menu_fawards' ), 10, 2 );
 
     }
 
@@ -41,17 +41,17 @@ if ( ! class_exists( 'CSF_Nav_Menu_Options' ) ) {
       return new self( $key, $params );
     }
 
-    public function wp_edit_nav_menu_vuchag( $class, $menu_id ) {
+    public function wp_edit_nav_menu_fawards( $class, $menu_id ) {
 
       global $wp_version;
 
       if( version_compare( $wp_version, '5.4.0', '<' ) ) {
 
-        if ( ! class_exists( 'CSF_Vuchag_Nav_Menu_Edit' ) ) {
-          CSF::include_plugin_file( 'functions/vuchag.php' );
+        if ( ! class_exists( 'CSF_fawards_Nav_Menu_Edit' ) ) {
+          CSF::include_plugin_file( 'functions/fawards.php' );
         }
 
-        return 'CSF_Vuchag_Nav_Menu_Edit';
+        return 'CSF_fawards_Nav_Menu_Edit';
 
       }
 

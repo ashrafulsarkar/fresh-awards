@@ -1,6 +1,6 @@
 <?php
 /**
- * VüCH Theme header option
+ * Fresh Awards Theme header option
  *
  * @package Fresh Awards
  */
@@ -10,7 +10,7 @@ CSF::createSection( $prefix, array(
     'icon'   => 'fas fa-home',
     'fields' => array(
         array(
-            'id'       => 'vuch-header-logo',
+            'id'       => 'fawards-header-logo',
             'type'     => 'media',
             'title'    => 'Header Logo',
             'subtitle' => esc_html__( '(72x22)px', 'fawards' ),
@@ -18,7 +18,7 @@ CSF::createSection( $prefix, array(
             'library'  => 'image',
         ),
         array(
-            'id'     => 'vuch-header-logo-width',
+            'id'     => 'fawards-header-logo-width',
             'type'   => 'dimensions',
             'title'  => 'Logo Width',
             'height' => false,

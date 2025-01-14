@@ -1,6 +1,6 @@
 <?php
 /**
- * VüCH Theme footer option
+ * Fresh Awards Theme footer option
  *
  * @package Fresh Awards
  */
@@ -10,7 +10,7 @@ CSF::createSection( $prefix, array(
     'icon'   => 'fa fa-home',
     'fields' => array(
         array(
-            'id'       => 'vuch-footer-logo',
+            'id'       => 'fawards-footer-logo',
             'type'     => 'media',
             'title'    => 'Footer Logo',
             'subtitle' => esc_html__( '(108x32)px', 'fawards' ),

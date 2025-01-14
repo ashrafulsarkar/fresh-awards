@@ -18,9 +18,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php
-	$fawards_primary_color   = cs_get_option( 'vuch-primary-color', '#003C97' );
-	$fawards_secondary_color = cs_get_option( 'vuch-secondary-color', '#1570EF' );
-	$fawards_text_color      = cs_get_option( 'vuch-text-color', '#1A1927' );
+	$fawards_primary_color   = cs_get_option( 'fawards-primary-color', '#003C97' );
+	$fawards_secondary_color = cs_get_option( 'fawards-secondary-color', '#1570EF' );
+	$fawards_text_color      = cs_get_option( 'fawards-text-color', '#1A1927' );
 	?>
 	<style>
 		:root {
@@ -42,7 +42,7 @@
 <body <?php body_class(); ?>>
 	<?php
 	wp_body_open();
-	$fawards_logo     = cs_get_option( 'vuch-header-logo' );
+	$fawards_logo     = cs_get_option( 'fawards-header-logo' );
 	$fawards_logo_url = isset( $fawards_logo['url'] ) ? $fawards_logo['url'] : '';
 	?>
 	<header>

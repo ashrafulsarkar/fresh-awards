@@ -1,6 +1,6 @@
-# VüCH
+# Fresh Awards
 
-Hi. This theme custom developed for VüCH and developed by [Ashraful Sarkar](mailto:ashrafulsarkar47@gmail.com).
+Hi. This theme custom developed for Fresh Awards and developed by [Ashraful Sarkar](mailto:ashrafulsarkar47@gmail.com).
 
 Theme Features
 ---------------
@@ -16,7 +16,7 @@ Here are some of the other more interesting things you'll find here:
 Requirements
 ---------------
 
-`VüCH` requires the following dependencies:
+`Fresh Awards` requires the following dependencies:
 
 - [Elementor Plugin](https://elementor.com/)
 

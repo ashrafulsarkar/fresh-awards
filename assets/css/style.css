@@ -1,5 +1,5 @@
 /**
- * Theme Name: VüCH Template
+ * Theme Name: Fresh Awards Template
  * Author: ashrafulsarkar47@gmail.com
  * Support: ashrafulsarkar47@gmail.com
  * Version: 1.0.0
@@ -244,7 +244,7 @@ footer {
 .fawards_form .forminator-row.forminator-row-last{
     margin-bottom: 0px !important;
 }
-.vuch-massage {
+.fawards-massage {
     margin-bottom: -24px;
 }
 .fawards_form .forminator-col {
@@ -363,18 +363,18 @@ footer {
 .select2-results__option.select2-results__option--selectable.select2-results__option--selected {
     background: #ededed;
 }
-.vuch-faq .elementor-toggle-item {
+.fawards-faq .elementor-toggle-item {
     border-radius: 16px;
     overflow: hidden;
 }
-.vuch-faq .elementor-tab-title {
+.fawards-faq .elementor-tab-title {
     background: #BCD4F2 !important;
 }
-.vuch-faq .elementor-tab-title.elementor-active {
+.fawards-faq .elementor-tab-title.elementor-active {
     background: #003C97 !important;
     padding-top: 40px !important;
 }
-.vuch-faq .elementor-toggle-icon-opened {
+.fawards-faq .elementor-toggle-icon-opened {
     margin-left: 0;
 }
 /*===================
@@ -455,19 +455,19 @@ footer {
 /*=========================
     Image Box
 =========================*/
-.vuch-image-box .elementor-image-box-wrapper,
-.vuch-image-box .elementor-icon-box-wrapper {
+.fawards-image-box .elementor-image-box-wrapper,
+.fawards-image-box .elementor-icon-box-wrapper {
     justify-content: flex-start;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
 }
-.vuch-image-box figure.elementor-image-box-img,
-.vuch-image-box figure.elementor-icon-box-icon {
+.fawards-image-box figure.elementor-image-box-img,
+.fawards-image-box figure.elementor-icon-box-icon {
     width: 64px !important;
 }
-.vuch-image-box .elementor-image-box-content,
-.vuch-image-box .elementor-icon-box-content {
+.fawards-image-box .elementor-image-box-content,
+.fawards-image-box .elementor-icon-box-content {
     width: calc(100% - 88px) !important;
 }
 .fawards_plus {
@@ -488,8 +488,8 @@ footer {
     }
 }
 @media (min-width:768px) and (max-width: 1025px) {
-    .vuch-image-box figure.elementor-image-box-img,
-    .vuch-image-box figure.elementor-icon-box-icon {
+    .fawards-image-box figure.elementor-image-box-img,
+    .fawards-image-box figure.elementor-icon-box-icon {
         width: 32px !important;
     }
 }
@@ -510,8 +510,8 @@ footer {
         background: #003C97;
         bottom: -1px;
     }
-    .vuch-image-box figure.elementor-image-box-img,
-    .vuch-image-box figure.elementor-icon-box-icon {
+    .fawards-image-box figure.elementor-image-box-img,
+    .fawards-image-box figure.elementor-icon-box-icon {
         margin-left: 0 !important;
         margin-right: 16px !important;
     }

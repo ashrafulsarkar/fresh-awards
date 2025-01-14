@@ -1,6 +1,6 @@
 <?php
 /**
- * VüCH Theme page option
+ * Fresh Awards Theme page option
  *
  * @package Fresh Awards
  */

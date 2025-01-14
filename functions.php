@@ -1,6 +1,6 @@
 <?php
 /**
- * VüCH functions and definitions
+ * Fresh Awards functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *

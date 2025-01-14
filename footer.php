@@ -16,7 +16,7 @@
 			<div class="col-lg-4 col-md-3">
 				<div class="footer_logo">
 					<?php
-					$fawards_footer_logo     = cs_get_option( 'vuch-footer-logo' );
+					$fawards_footer_logo     = cs_get_option( 'fawards-footer-logo' );
 					$fawards_footer_logo_url = isset( $fawards_footer_logo['url'] ) ? $fawards_footer_logo['url'] : '';
 					if ( $fawards_footer_logo_url ) { ?>
 						<img src="<?php echo $fawards_footer_logo_url; ?>" alt="logo">

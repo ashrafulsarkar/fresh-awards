@@ -2,7 +2,7 @@
 	"use strict";
 	$('#main-nav').hcOffcanvasNav({
 		insertClose: false,
-		disableAt: 768,
+		disableAt: 992,
 		levelOpen: 'expand',
 	});
 })(jQuery);

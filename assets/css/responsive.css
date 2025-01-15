@@ -1,164 +1,84 @@
-@media screen and (max-width: 1300px) {
-    .menu_part {
-        gap: 24px;
+@media (max-width: 1300px) {
+    .primary-menu .main-menu {
+        margin-left: 0px;
     }
 }
-
-/* MD Device :768px. */
-@media (max-width: 1199px) {
-    .menu_part {
-        position: relative;
-    }
-    .hc-offcanvas-nav ul.menu {
-        padding: 22px 24px;
-    }
-    .hc-offcanvas-nav .nav-content ul.sub-menu {
-        padding: 0;
-    }
-    .vuachag_image_select .forminator-field {
-        grid-template-columns: 1fr 1fr 1fr;
+@media (min-width:768px) and (max-width: 1025px) {
+    .fawards-image-box figure.elementor-image-box-img,
+    .fawards-image-box figure.elementor-icon-box-icon {
+        width: 32px !important;
     }
 }
-
-/* MD Device :768px. */
-@media (max-width: 992px) {
-    .footer_language {
-        margin-bottom: 32px;
-    }
-    .vuachag_image_select .forminator-field {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-/* Extra small Device. */
 @media (max-width: 767px) {
-    .container-fluid {
-        padding: 0 24px;
-    }
     .logo {
-        max-width: 108px;
+        width: 150px;
     }
-    .hc-offcanvas-nav.nav-open[class*=hc-nav-] div.nav-container {
-        transform: translate3d(0,70px,0);
+    .primary-menu .main-menu {
+        display: none;
     }
-    .hc-offcanvas-nav ul.menu {
-        padding: 22px 8px;
+    .primary-menu.footer-menu .main-menu{
+        display: block;
     }
-    ul.mobile_language {
-        padding: 0 24px 32px;
+    .fawards_plus::after,
+    .fawards_minus::after {
+        position: absolute;
+        content: '';
+        left: 0;
+        width: 9px;
+        height: 1px;
+        background: #003C97;
+        bottom: -1px;
     }
-    .blog-title .single_archive_title {
-        font-size: 32px;
-        padding-right: 0;
+    .fawards-image-box figure.elementor-image-box-img,
+    .fawards-image-box figure.elementor-icon-box-icon {
+        margin-left: 0 !important;
+        margin-right: 16px !important;
     }
-    .blog-title::before {
-        position: inherit;
+    .fawards_form .forminator-multi-upload-message {
+        display: block;
     }
-    .pagination-part {
-        padding-top: 20px;
+    .fawards_form .forminator-icon-upload {
+        margin: auto !important;
     }
-    .blog_content {
-        padding: 32px 0 50px;
-        overflow: hidden;
+    .fawards_form .forminator-multi-upload-message>p {
+        display: block !important;
     }
-    .pagination-part .pagination li .page-link {
-        --size: 30px;
-        margin: 0 2px;
-        height: var(--size);
-        width: var(--size);
-        line-height: var(--size);
-        font-size: 12px;
+    .fawards_form .fawards_contain .fawards_title {
+        text-align: center !important;
+        margin-top: 10px !important;
     }
-    .single-post-title h4 {
-        text-align: left;
-        font-size: 24px;
+    .fawards_form .fawards_contain .fawards_desc {
+        text-align: center !important;
+        margin-bottom: 10px !important;
     }
-    .author_details {
-        justify-content: flex-start;
-        margin-bottom: 32px;
+    .fawards_form .fawards_contain {
+        margin: auto;
     }
-    .fawards-single-blog-hero .fawards_breadcrumbs {
-        padding-top: 24px;
-        padding-bottom: 40px;
+    .circles-slider .ui-slider-handle {
+        border-radius: 18px;
+        height: 18px;
+        width: 18px;
+        top: -6px;
+        margin-left: -8px;
     }
-    .single-post-title {
-        margin-bottom: 24px;
+    footer {
+        padding: 50px 0 38px;
     }
-    .single-post-content {
-        padding: 24px 0 40px;
+    .footer-menu ul li {
+        display: block;
+        text-align: center;
     }
-    .related_post {
-        padding: 40px 0;
-        overflow: hidden;
-    }
-    .related_post_title {
-        margin-bottom: 32px;
-    }
-    .related_post_title::before{
-        position: inherit;
-    }
-    .related_post_title h3 {
-        padding-right: 0;
-        font-size: 32px;
-    }
-    .fawards_contact .forminator-button {
-        width: 100% !important;
-    }
-    .site-title h2 {
-        font-size: 36px;
-        line-height: 44px;
-    }
-    .fawards-hero,
-    .page_content {
-        padding: 40px 0;
-    }
-    .single-post-content p {
-        font-size: 16px;
-        line-height: 24px;
-        margin-bottom: 24px;
+    .footer-menu ul li a {
+        padding: 12px 0;
     }
     .footer_logo {
-        margin-bottom: 64px;
-    }
-    .footer_regions {
-        grid-auto-flow: inherit;
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    .footer_logistik {
-        margin-top: 32px;
-    }
-    .vuach_radio_box .forminator-field {
-        flex-direction: column;
-    }
-    .vuach_radio_box .forminator-radio-label {
-        padding: 35px 10px;
-        font-size: 16px;
-        line-height: 22px !important;
-    }
-    iframe#nwabacusiframe {
-        height: 1200px !important;
+        margin: auto;
+        margin-bottom: 28px;
     }
 }
-
-@media (max-width: 556px) {
-    .footer_logo {
-        max-width: inherit;
-    }
-    .footer_menu ul {
-        gap: 10px;
-    }
-    .footer_menu ul li:before {
-        right: -7px;
-    }
-    .footer_menu ul li a {
-        font-size: 11px;
-    }
-    .vuachag_image_select .forminator-checkbox-image span {
-        width: 48px !important;
-        height: 48px !important;
-    }
-    .vuachag_image_select .forminator-checkbox-image {
-        padding: 24px 0 0 !important;
+@media (max-width: 600px){
+    .fawards_form label.forminator-radio {
+        margin: 0 !important;
+        width: 100%;
     }
 }

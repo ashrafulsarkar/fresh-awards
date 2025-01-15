@@ -79,9 +79,7 @@ if ( class_exists( 'CSF' ) ) {
 
     ) );
 
-    require_once fawards_ROOT . '/inc/csf_customize/admin/header.php';
-    require_once fawards_ROOT . '/inc/csf_customize/admin/color.php';
-    require_once fawards_ROOT . '/inc/csf_customize/admin/footer.php';
+    require_once fawards_ROOT . '/inc/csf_customize/admin/settings.php';
     require_once fawards_ROOT . '/inc/csf_customize/admin/backup.php';
 
 }

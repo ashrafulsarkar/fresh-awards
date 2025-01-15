@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: "Inter Tight", sans-serif;
+    font-family: "Oswald", serif;
     font-weight: 400;
     font-style: normal;
     color: var(--site_text_color);
@@ -25,11 +25,11 @@ img {
 }
 a,
 .button {
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
+    -webkit-transition: all 0.2s ease-out 0s;
+    -moz-transition: all 0.2s ease-out 0s;
+    -ms-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
 }
 a:focus,
 .button:focus,
@@ -136,10 +136,10 @@ input[type="number"]::-webkit-outer-spin-button {
 	Herder css 
 ==========================*/
 header {
-    padding: 40px 0;
-    position: absolute;
-    width: 100%;
-    z-index: 2;
+    padding: 10px 0;
+}
+.logo {
+    width: 200px;
 }
 .logo a {
     display: block;
@@ -151,18 +151,50 @@ header {
 .primary-menu {
     position: relative;
 }
-.primary-menu ul li {
-    display: inline-block;
+.primary-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .primary-menu ul li a {
-    color: #fff;
-    font-size: 16px;
-    line-height: 1;
-    padding: 15px;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.1;
+    padding: 8px 10px;
     display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    width: 88px;
+    text-align: center;
+}
+.primary-menu ul li a::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 4px;
+    height: 35px;
+    background: #ddceb4;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.primary-menu ul li:last-child a {
+    background: #000;
+    color: #fff;
+    padding: 8px 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.primary-menu ul li:last-child a::after{
+    display: none;
 }
 .primary-menu ul li a:hover {
-    color: #BCD4F2;
+    padding: 0 10px 16px;
+}
+.primary-menu ul li:last-child a:hover {
+    padding: 6px 10px 16px;
 }
 .primary-menu .main-menu {
     margin-left: 50px;
@@ -480,86 +512,4 @@ footer {
     z-index: 1;
     bottom: -9px;
     right: -5px;
-}
-
-@media (max-width: 1300px) {
-    .primary-menu .main-menu {
-        margin-left: 0px;
-    }
-}
-@media (min-width:768px) and (max-width: 1025px) {
-    .fawards-image-box figure.elementor-image-box-img,
-    .fawards-image-box figure.elementor-icon-box-icon {
-        width: 32px !important;
-    }
-}
-@media (max-width: 767px) {
-    .primary-menu .main-menu {
-        display: none;
-    }
-    .primary-menu.footer-menu .main-menu{
-        display: block;
-    }
-    .fawards_plus::after,
-    .fawards_minus::after {
-        position: absolute;
-        content: '';
-        left: 0;
-        width: 9px;
-        height: 1px;
-        background: #003C97;
-        bottom: -1px;
-    }
-    .fawards-image-box figure.elementor-image-box-img,
-    .fawards-image-box figure.elementor-icon-box-icon {
-        margin-left: 0 !important;
-        margin-right: 16px !important;
-    }
-    .fawards_form .forminator-multi-upload-message {
-        display: block;
-    }
-    .fawards_form .forminator-icon-upload {
-        margin: auto !important;
-    }
-    .fawards_form .forminator-multi-upload-message>p {
-        display: block !important;
-    }
-    .fawards_form .fawards_contain .fawards_title {
-        text-align: center !important;
-        margin-top: 10px !important;
-    }
-    .fawards_form .fawards_contain .fawards_desc {
-        text-align: center !important;
-        margin-bottom: 10px !important;
-    }
-    .fawards_form .fawards_contain {
-        margin: auto;
-    }
-    .circles-slider .ui-slider-handle {
-        border-radius: 18px;
-        height: 18px;
-        width: 18px;
-        top: -6px;
-        margin-left: -8px;
-    }
-    footer {
-        padding: 50px 0 38px;
-    }
-    .footer-menu ul li {
-        display: block;
-        text-align: center;
-    }
-    .footer-menu ul li a {
-        padding: 12px 0;
-    }
-    .footer_logo {
-        margin: auto;
-        margin-bottom: 28px;
-    }
-}
-@media (max-width: 600px){
-    .fawards_form label.forminator-radio {
-        margin: 0 !important;
-        width: 100%;
-    }
 }

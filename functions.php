@@ -36,6 +36,13 @@ if ( file_exists( fawards_ROOT . '/inc/scripts.php' ) ) {
 }
 
 /**======================================
+ * Custom Functions.
+======================================*/
+if ( file_exists( fawards_ROOT . '/inc/custom-functions.php' ) ) {
+	require_once fawards_ROOT . '/inc/custom-functions.php';
+}
+
+/**======================================
  * Codestar framework.
 ======================================*/
 if ( file_exists( fawards_ROOT . '/inc/csf/codestar-framework.php' ) ) {
@@ -47,13 +54,6 @@ if ( file_exists( fawards_ROOT . '/inc/csf/codestar-framework.php' ) ) {
 ======================================*/
 if ( file_exists( fawards_ROOT . '/inc/csf_customize/codestar.php' ) ) {
 	require_once fawards_ROOT . '/inc/csf_customize/codestar.php';
-}
-
-/**======================================
- * Custom Functions.
-======================================*/
-if ( file_exists( fawards_ROOT . '/inc/custom-functions.php' ) ) {
-	require_once fawards_ROOT . '/inc/custom-functions.php';
 }
 
 /**==============================================================

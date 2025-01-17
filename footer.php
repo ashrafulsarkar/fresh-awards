@@ -12,21 +12,32 @@
 ?>
 <footer>
 	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-4 col-md-3">
+		<div class="row">
+			<div class="col">
 				<div class="footer_logo">
 					<?php
-					$fawards_footer_logo     = cs_get_option( 'fawards-footer-logo' );
-					$fawards_footer_logo_url = isset( $fawards_footer_logo['url'] ) ? $fawards_footer_logo['url'] : '';
-					if ( $fawards_footer_logo_url ) { ?>
-						<img src="<?php echo $fawards_footer_logo_url; ?>" alt="logo">
+					$fawards_footer_logo_1    = cs_get_option( 'fawards-footer-logo-1' );
+					$fawards_footer_logo_2    = cs_get_option( 'fawards-footer-logo-2' );
+					
+					$fawards_footer_logo_url_1 = isset( $fawards_footer_logo_1['url'] ) ? $fawards_footer_logo_1['url'] : '';
+					if ( $fawards_footer_logo_url_1 ) { ?>
+						<div class="img_1">
+							<img src="<?php echo $fawards_footer_logo_url_1; ?>" alt="logo">
+						</div>
+					<?php }
+					$fawards_footer_logo_url_2 = isset( $fawards_footer_logo_2['url'] ) ? $fawards_footer_logo_2['url'] : '';
+					if ( $fawards_footer_logo_url_2 ) { ?>
+						<div class="img_2">
+							<img src="<?php echo $fawards_footer_logo_url_2; ?>" alt="logo">
+						</div>
 					<?php } ?>
 				</div>
 			</div>
-			<div class="col-lg-8 col-md-9">
-				<div class="primary-menu footer-menu">
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="footer-menu">
 					<nav id="main-nav" class="main-menu">
-						<!-- main nav menu -->
 						<?php
 						wp_nav_menu( array(
 							'theme_location' => "footer_menu",
@@ -37,20 +48,17 @@
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col">
+				<?php
+				$fawards_copyright    = cs_get_option( 'fawards-footer-copyright' );
+				$fawards_copyright_text = str_replace("{year}", date("Y"), $fawards_copyright);
+				?>
+				<p class="copyright"><?php echo $fawards_copyright_text;?></p>
+			</div>
+		</div>
 	</div>
 </footer>
-<script>
-    let uploadElements = document.querySelectorAll('.fawards_form .forminator-icon-upload');
-    let uploadElementTexts = document.querySelectorAll('.fawards_form .forminator-multi-upload-message p');
-
-    uploadElements.forEach(function(element) {
-        element.innerHTML = "<img src ='<?php echo fawards_ROOT_IMG.'/upload.svg';?>' >";
-    });
-
-    uploadElementTexts.forEach(function(element) {
-        element.innerHTML = "<div class='fawards_contain'><p class='fawards_title'>Wähle eine Datei aus oder ziehe sie per Drag & Drop hierher</p><p class='fawards_desc'>PDF-Dateigröße nicht mehr als 10 MB</p></div><p class='fawards_link'>Wähle eine Datei aus</p>";
-    });
-</script>
 <?php wp_footer(); ?>
 </body>
 

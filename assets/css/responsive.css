@@ -1,84 +1,14 @@
-@media (max-width: 1300px) {
-    .primary-menu .main-menu {
-        margin-left: 0px;
-    }
-}
-@media (min-width:768px) and (max-width: 1025px) {
-    .fawards-image-box figure.elementor-image-box-img,
-    .fawards-image-box figure.elementor-icon-box-icon {
-        width: 32px !important;
-    }
-}
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
     .logo {
         width: 150px;
     }
+}
+@media (max-width: 991px) {
     .primary-menu .main-menu {
         display: none;
     }
-    .primary-menu.footer-menu .main-menu{
-        display: block;
-    }
-    .fawards_plus::after,
-    .fawards_minus::after {
-        position: absolute;
-        content: '';
-        left: 0;
-        width: 9px;
-        height: 1px;
-        background: #003C97;
-        bottom: -1px;
-    }
-    .fawards-image-box figure.elementor-image-box-img,
-    .fawards-image-box figure.elementor-icon-box-icon {
-        margin-left: 0 !important;
-        margin-right: 16px !important;
-    }
-    .fawards_form .forminator-multi-upload-message {
-        display: block;
-    }
-    .fawards_form .forminator-icon-upload {
-        margin: auto !important;
-    }
-    .fawards_form .forminator-multi-upload-message>p {
-        display: block !important;
-    }
-    .fawards_form .fawards_contain .fawards_title {
-        text-align: center !important;
-        margin-top: 10px !important;
-    }
-    .fawards_form .fawards_contain .fawards_desc {
-        text-align: center !important;
-        margin-bottom: 10px !important;
-    }
-    .fawards_form .fawards_contain {
-        margin: auto;
-    }
-    .circles-slider .ui-slider-handle {
-        border-radius: 18px;
-        height: 18px;
-        width: 18px;
-        top: -6px;
-        margin-left: -8px;
-    }
-    footer {
-        padding: 50px 0 38px;
-    }
-    .footer-menu ul li {
-        display: block;
-        text-align: center;
-    }
-    .footer-menu ul li a {
-        padding: 12px 0;
-    }
-    .footer_logo {
-        margin: auto;
-        margin-bottom: 28px;
-    }
 }
-@media (max-width: 600px){
-    .fawards_form label.forminator-radio {
-        margin: 0 !important;
-        width: 100%;
-    }
+@media (max-width: 767px) {
+    
+    
 }

@@ -109,17 +109,17 @@ p {
     margin-bottom: 0;
 }
 *::-moz-selection {
-    background: var(--site_secondary_color);
+    background: var(--site_primary_color);
     color: #fff;
     text-shadow: none;
 }
 ::-moz-selection {
-    background: var(--site_secondary_color);
+    background: var(--site_primary_color);
     color: #fff;
     text-shadow: none;
 }
 ::selection {
-    background: var(--site_secondary_color);
+    background: var(--site_primary_color);
     color: #fff;
     text-shadow: none;
 }

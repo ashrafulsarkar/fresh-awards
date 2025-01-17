@@ -19,9 +19,9 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<style>
 		:root {
-			--site_primary_color: #003C97;
-			--site_secondary_color: #1570EF;
-			--site_text_color: #1A1927;
+			--site_primary_color: #c1a057;
+			--site_secondary_color: #ffd539;
+			--site_text_color: #000000;
 		}
 	</style>
 

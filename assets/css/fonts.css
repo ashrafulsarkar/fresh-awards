@@ -1,0 +1,26 @@
+/**
+ * Font Family: Helvetica Neue
+ *
+ *
+*/
+@font-face {
+	font-family: 'Graphite geometos soft extra';
+	src: url('../fonts/GeometosSoftExtraBold.otf') format('opentype');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Sweetest goods celesse';
+	src: url('../fonts/SweetestGoodsCelesseRegular.otf') format('opentype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Sweetest goods celesse';
+	src: url('../fonts/SweetestGoodsCelesseRegular.otf') format('opentype');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}

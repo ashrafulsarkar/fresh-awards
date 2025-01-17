@@ -28,6 +28,6 @@ if ( class_exists( 'CSF' ) ) {
 
     //
     // Create a section
-    require_once fawards_ROOT . '/inc/csf_customize/metabox/hero_bg.php';
+    require_once FAWARDS_ROOT . '/inc/csf_customize/metabox/hero_bg.php';
 
 }

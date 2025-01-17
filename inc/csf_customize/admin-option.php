@@ -79,7 +79,7 @@ if ( class_exists( 'CSF' ) ) {
 
     ) );
 
-    require_once fawards_ROOT . '/inc/csf_customize/admin/settings.php';
-    require_once fawards_ROOT . '/inc/csf_customize/admin/backup.php';
+    require_once FAWARDS_ROOT . '/inc/csf_customize/admin/settings.php';
+    require_once FAWARDS_ROOT . '/inc/csf_customize/admin/backup.php';
 
 }

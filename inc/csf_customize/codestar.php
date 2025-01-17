@@ -9,6 +9,6 @@
  * Admin Option
  */
 
-if (file_exists(fawards_ROOT . '/inc/csf_customize/admin-option.php')) {
-	require_once(fawards_ROOT . '/inc/csf_customize/admin-option.php');
+if (file_exists(FAWARDS_ROOT . '/inc/csf_customize/admin-option.php')) {
+	require_once(FAWARDS_ROOT . '/inc/csf_customize/admin-option.php');
 }

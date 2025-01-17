@@ -22,7 +22,7 @@ if ( !function_exists( 'fawards_setup' ) ) {
          * If you're building a theme based on Fresh Awards, use a find and replace
          * to change 'fawards' to the name of your theme in all the template files.
          */
-        load_theme_textdomain( 'fawards', fawards_ROOT . '/languages' );
+        load_theme_textdomain( 'fawards', FAWARDS_ROOT . '/languages' );
 
         // Add default posts and comments RSS feed links to head.
         add_theme_support( 'automatic-feed-links' );

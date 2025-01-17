@@ -60,9 +60,9 @@ function fawards_register_required_plugins() {
 	$plugins = array(
 		// This is an example of how to include a plugin bundled with a theme.
 		array(
-			'name'               => 'Stellen Konfigurator',
-			'slug'               => 'stellen-konfigurator',
-			'source'             => get_template_directory() . '/plugins/stellen-konfigurator.zip', 
+			'name'               => 'Event Booking Table',
+			'slug'               => 'wp-ticket-booking',
+			'source'             => get_template_directory() . '/plugins/wp-ticket-booking.zip',
 			'required'           => true,
 		),
 		array(

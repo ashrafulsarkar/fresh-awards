@@ -192,3 +192,17 @@ if ( ! function_exists( 'cs_get_option' ) ) {
       return ( isset( $options[$option] ) ) ? $options[$option] : $default;
     }
 }
+
+// Elementor free plugin shortcode
+// [elementor_template id='']
+if(!function_exists('fawards_template_shortcode')){
+	function fawards_template_shortcode( $atts ) {
+		$template_id = $atts['id'];
+		if ( defined( 'ELEMENTOR_PATH' ) && class_exists( 'Elementor\TemplateLibrary\Source_Local' ) && $template_id ) {
+			return \Elementor\Plugin::$instance->frontend->get_builder_content_for_display( $template_id );
+		} else {
+			return 'Elementor is not active or template ID is missing.';
+		}
+	}
+}
+add_shortcode( 'elementor_template', 'fawards_template_shortcode' );

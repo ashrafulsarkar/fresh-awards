@@ -161,6 +161,13 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    max-width: 785px;
+	text-align:left;
+}
+.primary-menu nav {
+	text-align: right;
+    text-align: -webkit-right;
+    text-align: -moz-right;
 }
 .primary-menu ul li a {
     color: #000;

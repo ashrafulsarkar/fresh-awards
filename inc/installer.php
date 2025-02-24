@@ -71,6 +71,12 @@ function fawards_register_required_plugins() {
 			'source'             => get_template_directory() . '/plugins/fawards-elementor.zip', 
 			'required'           => true,
 		),
+		array(
+			'name'               => 'Event Voting System',
+			'slug'               => 'event-voting-system',
+			'source'             => get_template_directory() . '/plugins/event-voting-system.zip', 
+			'required'           => true,
+		),
 
 		// This is an example of how to include a plugin from the WordPress Plugin Repository.
 		array(
